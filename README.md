@@ -33,3 +33,8 @@ The following image shows look of the application:
 
 
 ![Work-day-scheduler-screenshot](https://user-images.githubusercontent.com/119426793/215897143-5d8f4208-7b9c-4ad3-af9e-84bb8dc73df8.png)
+
+
+Link to the deployed page:
+
+https://miriamdurazo.github.io/Work-day-scheduler/ 
