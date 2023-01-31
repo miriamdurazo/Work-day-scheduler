@@ -21,8 +21,16 @@ function printHourlyDivs(array) {
     array.forEach(element => {
         let divRowEl = $('<div>').addClass('row');
         let divTimeBlock= $('<div>').addClass('col-1 time-block').text(element);
-        // let inputTask = $('<input>').addClass()
-        divRowEl.append(divTimeBlock); 
+        let addTask = $('<textarea>')
+        .attr('id', element)
+        .addClass('col-8 input');
+        let saveBtn = $('<button>').addClass('col-1 save-btn');
+        let saveIcon = $('<i>').addClass('fa fa-check');
+        saveBtn.append(saveIcon);
+        let removeBtn = $('<button>').addClass('col-1 remove-btn');
+        let removeIcon = $('<i>').addClass('fa fa-close');
+        removeBtn.append(removeIcon);
+        divRowEl.append(divTimeBlock, addTask, saveBtn, removeBtn); 
         dailyPlanContainer.append(divRowEl);    
     });
     
