@@ -29,6 +29,7 @@ So that I can manage my time effectively
 
 * Persist events between refreshes of a page
 
-The following animation demonstrates the application functionality:
+The following image shows look of the application:
 
-![A user clicks on slots on the color-coded calendar and edits the events.](./images/05-third-party-apis-homework-demo.gif)
+
+![Work-day-scheduler-screenshot](https://user-images.githubusercontent.com/119426793/215897143-5d8f4208-7b9c-4ad3-af9e-84bb8dc73df8.png)
